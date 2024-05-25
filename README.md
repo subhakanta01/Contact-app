@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# React + TypeScript Project with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + TypeScript project bootstrapped with Vite. The project includes five main components: `AddContactForm`, `ContactDetails`, `ContactList`, `LineChart`, and `MapComponent`, all accessible through a sidebar.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **AddContactForm**: Form to add new contacts.
+- **ContactDetails**: Displays details of a selected contact.
+- **ContactList**: Lists all contacts with options to view details and delete.
+- **LineChart**: Displays a line chart of COVID-19 historical data.
+- **MapComponent**: Displays a map with markers for different countries' COVID-19 data.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- Vite
+- React Router
+- Redux
+- React Query
+- Axios
+- Chart.js
+- Leaflet
+- Tailwind CSS
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Prerequisites
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Node.js (version 14.x or higher)
+- npm (version 6.x or higher) or yarn (version 1.22.x or higher)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
